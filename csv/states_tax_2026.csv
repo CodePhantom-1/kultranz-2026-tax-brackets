@@ -1,0 +1,312 @@
+state,state_name,tax_type,filing_status,income_floor_usd,marginal_rate,standard_deduction_usd
+AK,Alaska,none,single,,,
+AK,Alaska,none,mfj,,,
+AL,Alabama,progressive,single,0,0.02,3000
+AL,Alabama,progressive,single,500,0.04,3000
+AL,Alabama,progressive,single,3000,0.05,3000
+AL,Alabama,progressive,mfj,0,0.02,8500
+AL,Alabama,progressive,mfj,1000,0.04,8500
+AL,Alabama,progressive,mfj,6000,0.05,8500
+AR,Arkansas,progressive,single,0,0.02,2470
+AR,Arkansas,progressive,single,4600,0.039,2470
+AR,Arkansas,progressive,mfj,0,0.02,4940
+AR,Arkansas,progressive,mfj,4600,0.039,4940
+AZ,Arizona,flat,single,0,0.025,8350
+AZ,Arizona,flat,mfj,0,0.025,16700
+CA,California,progressive,single,0,0.01,5540
+CA,California,progressive,single,11079,0.02,5540
+CA,California,progressive,single,26264,0.04,5540
+CA,California,progressive,single,41452,0.06,5540
+CA,California,progressive,single,57542,0.08,5540
+CA,California,progressive,single,72724,0.093,5540
+CA,California,progressive,single,371479,0.103,5540
+CA,California,progressive,single,445771,0.113,5540
+CA,California,progressive,single,742953,0.123,5540
+CA,California,progressive,single,1000000,0.133,5540
+CA,California,progressive,mfj,0,0.01,11080
+CA,California,progressive,mfj,22158,0.02,11080
+CA,California,progressive,mfj,52528,0.04,11080
+CA,California,progressive,mfj,82904,0.06,11080
+CA,California,progressive,mfj,115084,0.08,11080
+CA,California,progressive,mfj,145448,0.093,11080
+CA,California,progressive,mfj,742958,0.103,11080
+CA,California,progressive,mfj,891542,0.113,11080
+CA,California,progressive,mfj,1000000,0.123,11080
+CA,California,progressive,mfj,1485906,0.133,11080
+CO,Colorado,flat,single,0,0.044,16100
+CO,Colorado,flat,mfj,0,0.044,32200
+CT,Connecticut,progressive,single,0,0.02,
+CT,Connecticut,progressive,single,10000,0.045,
+CT,Connecticut,progressive,single,50000,0.055,
+CT,Connecticut,progressive,single,100000,0.06,
+CT,Connecticut,progressive,single,200000,0.065,
+CT,Connecticut,progressive,single,250000,0.069,
+CT,Connecticut,progressive,single,500000,0.0699,
+CT,Connecticut,progressive,mfj,0,0.02,
+CT,Connecticut,progressive,mfj,20000,0.045,
+CT,Connecticut,progressive,mfj,100000,0.055,
+CT,Connecticut,progressive,mfj,200000,0.06,
+CT,Connecticut,progressive,mfj,400000,0.065,
+CT,Connecticut,progressive,mfj,500000,0.069,
+CT,Connecticut,progressive,mfj,1000000,0.0699,
+DC,District of Columbia,progressive,single,0,0.04,16100
+DC,District of Columbia,progressive,single,10000,0.06,16100
+DC,District of Columbia,progressive,single,40000,0.065,16100
+DC,District of Columbia,progressive,single,60000,0.085,16100
+DC,District of Columbia,progressive,single,250000,0.0925,16100
+DC,District of Columbia,progressive,single,500000,0.0975,16100
+DC,District of Columbia,progressive,single,1000000,0.1075,16100
+DC,District of Columbia,progressive,mfj,0,0.04,32200
+DC,District of Columbia,progressive,mfj,10000,0.06,32200
+DC,District of Columbia,progressive,mfj,40000,0.065,32200
+DC,District of Columbia,progressive,mfj,60000,0.085,32200
+DC,District of Columbia,progressive,mfj,250000,0.0925,32200
+DC,District of Columbia,progressive,mfj,500000,0.0975,32200
+DC,District of Columbia,progressive,mfj,1000000,0.1075,32200
+DE,Delaware,progressive,single,0,0.0,3250
+DE,Delaware,progressive,single,2000,0.022,3250
+DE,Delaware,progressive,single,5000,0.039,3250
+DE,Delaware,progressive,single,10000,0.048,3250
+DE,Delaware,progressive,single,20000,0.052,3250
+DE,Delaware,progressive,single,25000,0.0555,3250
+DE,Delaware,progressive,single,60000,0.066,3250
+DE,Delaware,progressive,mfj,0,0.0,6500
+DE,Delaware,progressive,mfj,2000,0.022,6500
+DE,Delaware,progressive,mfj,5000,0.039,6500
+DE,Delaware,progressive,mfj,10000,0.048,6500
+DE,Delaware,progressive,mfj,20000,0.052,6500
+DE,Delaware,progressive,mfj,25000,0.0555,6500
+DE,Delaware,progressive,mfj,60000,0.066,6500
+FL,Florida,none,single,,,
+FL,Florida,none,mfj,,,
+GA,Georgia,flat,single,0,0.0519,12000
+GA,Georgia,flat,mfj,0,0.0519,24000
+HI,Hawaii,progressive,single,0,0.014,4400
+HI,Hawaii,progressive,single,9600,0.032,4400
+HI,Hawaii,progressive,single,14400,0.055,4400
+HI,Hawaii,progressive,single,19200,0.064,4400
+HI,Hawaii,progressive,single,24000,0.068,4400
+HI,Hawaii,progressive,single,36000,0.072,4400
+HI,Hawaii,progressive,single,48000,0.076,4400
+HI,Hawaii,progressive,single,125000,0.079,4400
+HI,Hawaii,progressive,single,175000,0.0825,4400
+HI,Hawaii,progressive,single,225000,0.09,4400
+HI,Hawaii,progressive,single,275000,0.1,4400
+HI,Hawaii,progressive,single,325000,0.11,4400
+HI,Hawaii,progressive,mfj,0,0.014,8800
+HI,Hawaii,progressive,mfj,19200,0.032,8800
+HI,Hawaii,progressive,mfj,28800,0.055,8800
+HI,Hawaii,progressive,mfj,38400,0.064,8800
+HI,Hawaii,progressive,mfj,48000,0.068,8800
+HI,Hawaii,progressive,mfj,72000,0.072,8800
+HI,Hawaii,progressive,mfj,96000,0.076,8800
+HI,Hawaii,progressive,mfj,250000,0.079,8800
+HI,Hawaii,progressive,mfj,350000,0.0825,8800
+HI,Hawaii,progressive,mfj,450000,0.09,8800
+HI,Hawaii,progressive,mfj,550000,0.1,8800
+HI,Hawaii,progressive,mfj,650000,0.11,8800
+IA,Iowa,flat,single,0,0.038,16100
+IA,Iowa,flat,mfj,0,0.038,32200
+ID,Idaho,flat,single,0,0.053,16100
+ID,Idaho,flat,mfj,0,0.053,32200
+IL,Illinois,flat,single,0,0.0495,
+IL,Illinois,flat,mfj,0,0.0495,
+IN,Indiana,flat,single,0,0.0295,
+IN,Indiana,flat,mfj,0,0.0295,
+KS,Kansas,progressive,single,0,0.052,3605
+KS,Kansas,progressive,single,23000,0.0558,3605
+KS,Kansas,progressive,mfj,0,0.052,7210
+KS,Kansas,progressive,mfj,46000,0.0558,7210
+KY,Kentucky,flat,single,0,0.035,3360
+KY,Kentucky,flat,mfj,0,0.035,3360
+LA,Louisiana,flat,single,0,0.03,12875
+LA,Louisiana,flat,mfj,0,0.03,25750
+MA,Massachusetts,progressive,single,0,0.05,
+MA,Massachusetts,progressive,single,1083150,0.09,
+MA,Massachusetts,progressive,mfj,0,0.05,
+MA,Massachusetts,progressive,mfj,1083150,0.09,
+MD,Maryland,progressive,single,0,0.02,3350
+MD,Maryland,progressive,single,1000,0.03,3350
+MD,Maryland,progressive,single,2000,0.04,3350
+MD,Maryland,progressive,single,3000,0.0475,3350
+MD,Maryland,progressive,single,100000,0.05,3350
+MD,Maryland,progressive,single,125000,0.0525,3350
+MD,Maryland,progressive,single,150000,0.055,3350
+MD,Maryland,progressive,single,250000,0.0575,3350
+MD,Maryland,progressive,single,500000,0.0625,3350
+MD,Maryland,progressive,single,1000000,0.065,3350
+MD,Maryland,progressive,mfj,0,0.02,6700
+MD,Maryland,progressive,mfj,1000,0.03,6700
+MD,Maryland,progressive,mfj,2000,0.04,6700
+MD,Maryland,progressive,mfj,3000,0.0475,6700
+MD,Maryland,progressive,mfj,150000,0.05,6700
+MD,Maryland,progressive,mfj,175000,0.0525,6700
+MD,Maryland,progressive,mfj,225000,0.055,6700
+MD,Maryland,progressive,mfj,300000,0.0575,6700
+MD,Maryland,progressive,mfj,600000,0.0625,6700
+MD,Maryland,progressive,mfj,1200000,0.065,6700
+ME,Maine,progressive,single,0,0.058,8350
+ME,Maine,progressive,single,27399,0.0675,8350
+ME,Maine,progressive,single,64849,0.0715,8350
+ME,Maine,progressive,mfj,0,0.058,16700
+ME,Maine,progressive,mfj,54849,0.0675,16700
+ME,Maine,progressive,mfj,129749,0.0715,16700
+MI,Michigan,flat,single,0,0.0425,
+MI,Michigan,flat,mfj,0,0.0425,
+MN,Minnesota,progressive,single,0,0.0535,15300
+MN,Minnesota,progressive,single,33310,0.068,15300
+MN,Minnesota,progressive,single,109430,0.0785,15300
+MN,Minnesota,progressive,single,203150,0.0985,15300
+MN,Minnesota,progressive,mfj,0,0.0535,30600
+MN,Minnesota,progressive,mfj,48700,0.068,30600
+MN,Minnesota,progressive,mfj,193480,0.0785,30600
+MN,Minnesota,progressive,mfj,337930,0.0985,30600
+MO,Missouri,flat,single,0,0.02,16100
+MO,Missouri,flat,mfj,0,0.02,32200
+MS,Mississippi,flat,single,0,0.04,2300
+MS,Mississippi,flat,mfj,0,0.04,4600
+MT,Montana,progressive,single,0,0.047,16100
+MT,Montana,progressive,single,47500,0.0565,16100
+MT,Montana,progressive,mfj,0,0.047,32200
+MT,Montana,progressive,mfj,95000,0.0565,32200
+NC,North Carolina,flat,single,0,0.0399,12750
+NC,North Carolina,flat,mfj,0,0.0399,25500
+ND,North Dakota,progressive,single,0,0.0,16100
+ND,North Dakota,progressive,single,48475,0.0195,16100
+ND,North Dakota,progressive,single,244825,0.025,16100
+ND,North Dakota,progressive,mfj,0,0.0,32200
+ND,North Dakota,progressive,mfj,80975,0.0195,32200
+ND,North Dakota,progressive,mfj,298075,0.025,32200
+NE,Nebraska,progressive,single,0,0.0246,8850
+NE,Nebraska,progressive,single,4130,0.0351,8850
+NE,Nebraska,progressive,single,24760,0.0455,8850
+NE,Nebraska,progressive,mfj,0,0.0246,17700
+NE,Nebraska,progressive,mfj,8250,0.0351,17700
+NE,Nebraska,progressive,mfj,49530,0.0455,17700
+NH,New Hampshire,none,single,,,
+NH,New Hampshire,none,mfj,,,
+NJ,New Jersey,progressive,single,0,0.014,
+NJ,New Jersey,progressive,single,20000,0.0175,
+NJ,New Jersey,progressive,single,35000,0.035,
+NJ,New Jersey,progressive,single,40000,0.0553,
+NJ,New Jersey,progressive,single,75000,0.0637,
+NJ,New Jersey,progressive,single,500000,0.0897,
+NJ,New Jersey,progressive,single,1000000,0.1075,
+NJ,New Jersey,progressive,mfj,0,0.014,
+NJ,New Jersey,progressive,mfj,20000,0.0175,
+NJ,New Jersey,progressive,mfj,50000,0.0245,
+NJ,New Jersey,progressive,mfj,70000,0.035,
+NJ,New Jersey,progressive,mfj,80000,0.0553,
+NJ,New Jersey,progressive,mfj,150000,0.0637,
+NJ,New Jersey,progressive,mfj,500000,0.0897,
+NJ,New Jersey,progressive,mfj,1000000,0.1075,
+NM,New Mexico,progressive,single,0,0.015,16100
+NM,New Mexico,progressive,single,5500,0.032,16100
+NM,New Mexico,progressive,single,16500,0.043,16100
+NM,New Mexico,progressive,single,33500,0.047,16100
+NM,New Mexico,progressive,single,66500,0.049,16100
+NM,New Mexico,progressive,single,210000,0.059,16100
+NM,New Mexico,progressive,mfj,0,0.015,32200
+NM,New Mexico,progressive,mfj,8000,0.032,32200
+NM,New Mexico,progressive,mfj,25000,0.043,32200
+NM,New Mexico,progressive,mfj,50000,0.047,32200
+NM,New Mexico,progressive,mfj,100000,0.049,32200
+NM,New Mexico,progressive,mfj,315000,0.059,32200
+NV,Nevada,none,single,,,
+NV,Nevada,none,mfj,,,
+NY,New York,progressive,single,0,0.039,8000
+NY,New York,progressive,single,8500,0.044,8000
+NY,New York,progressive,single,11700,0.0515,8000
+NY,New York,progressive,single,13900,0.054,8000
+NY,New York,progressive,single,80650,0.059,8000
+NY,New York,progressive,single,215400,0.0685,8000
+NY,New York,progressive,single,1077550,0.0965,8000
+NY,New York,progressive,single,5000000,0.103,8000
+NY,New York,progressive,single,25000000,0.109,8000
+NY,New York,progressive,mfj,0,0.039,16050
+NY,New York,progressive,mfj,17150,0.044,16050
+NY,New York,progressive,mfj,23600,0.0515,16050
+NY,New York,progressive,mfj,27900,0.054,16050
+NY,New York,progressive,mfj,161550,0.059,16050
+NY,New York,progressive,mfj,323200,0.0685,16050
+NY,New York,progressive,mfj,2155350,0.0965,16050
+NY,New York,progressive,mfj,5000000,0.103,16050
+NY,New York,progressive,mfj,25000000,0.109,16050
+OH,Ohio,flat,single,0,0.0275,
+OH,Ohio,flat,mfj,0,0.0275,
+OK,Oklahoma,progressive,single,0,0.0,6350
+OK,Oklahoma,progressive,single,3750,0.025,6350
+OK,Oklahoma,progressive,single,4900,0.035,6350
+OK,Oklahoma,progressive,single,7200,0.045,6350
+OK,Oklahoma,progressive,mfj,0,0.0,12700
+OK,Oklahoma,progressive,mfj,7500,0.025,12700
+OK,Oklahoma,progressive,mfj,9800,0.035,12700
+OK,Oklahoma,progressive,mfj,14400,0.045,12700
+OR,Oregon,progressive,single,0,0.0475,2910
+OR,Oregon,progressive,single,4550,0.0675,2910
+OR,Oregon,progressive,single,11400,0.0875,2910
+OR,Oregon,progressive,single,125000,0.099,2910
+OR,Oregon,progressive,mfj,0,0.0475,5820
+OR,Oregon,progressive,mfj,9100,0.0675,5820
+OR,Oregon,progressive,mfj,22800,0.0875,5820
+OR,Oregon,progressive,mfj,250000,0.099,5820
+PA,Pennsylvania,flat,single,0,0.0307,
+PA,Pennsylvania,flat,mfj,0,0.0307,
+RI,Rhode Island,progressive,single,0,0.0375,11200
+RI,Rhode Island,progressive,single,82050,0.0475,11200
+RI,Rhode Island,progressive,single,186450,0.0599,11200
+RI,Rhode Island,progressive,mfj,0,0.0375,22400
+RI,Rhode Island,progressive,mfj,82050,0.0475,22400
+RI,Rhode Island,progressive,mfj,186450,0.0599,22400
+SC,South Carolina,progressive,single,0,0.0,8350
+SC,South Carolina,progressive,single,3640,0.03,8350
+SC,South Carolina,progressive,single,18230,0.06,8350
+SC,South Carolina,progressive,mfj,0,0.0,16700
+SC,South Carolina,progressive,mfj,3640,0.03,16700
+SC,South Carolina,progressive,mfj,18230,0.06,16700
+SD,South Dakota,none,single,,,
+SD,South Dakota,none,mfj,,,
+TN,Tennessee,none,single,,,
+TN,Tennessee,none,mfj,,,
+TX,Texas,none,single,,,
+TX,Texas,none,mfj,,,
+UT,Utah,flat,single,0,0.045,
+UT,Utah,flat,mfj,0,0.045,
+VA,Virginia,progressive,single,0,0.02,8750
+VA,Virginia,progressive,single,3000,0.03,8750
+VA,Virginia,progressive,single,5000,0.05,8750
+VA,Virginia,progressive,single,17000,0.0575,8750
+VA,Virginia,progressive,mfj,0,0.02,17500
+VA,Virginia,progressive,mfj,3000,0.03,17500
+VA,Virginia,progressive,mfj,5000,0.05,17500
+VA,Virginia,progressive,mfj,17000,0.0575,17500
+VT,Vermont,progressive,single,0,0.0335,7650
+VT,Vermont,progressive,single,49400,0.066,7650
+VT,Vermont,progressive,single,119700,0.076,7650
+VT,Vermont,progressive,single,249700,0.0875,7650
+VT,Vermont,progressive,mfj,0,0.0335,15300
+VT,Vermont,progressive,mfj,82500,0.066,15300
+VT,Vermont,progressive,mfj,199450,0.076,15300
+VT,Vermont,progressive,mfj,304000,0.0875,15300
+WA,Washington,none,single,,,
+WA,Washington,none,mfj,,,
+WI,Wisconsin,progressive,single,0,0.035,13960
+WI,Wisconsin,progressive,single,15110,0.044,13960
+WI,Wisconsin,progressive,single,51950,0.053,13960
+WI,Wisconsin,progressive,single,332720,0.0765,13960
+WI,Wisconsin,progressive,mfj,0,0.035,25840
+WI,Wisconsin,progressive,mfj,20150,0.044,25840
+WI,Wisconsin,progressive,mfj,69260,0.053,25840
+WI,Wisconsin,progressive,mfj,443630,0.0765,25840
+WV,West Virginia,progressive,single,0,0.0222,
+WV,West Virginia,progressive,single,10000,0.0296,
+WV,West Virginia,progressive,single,25000,0.0333,
+WV,West Virginia,progressive,single,40000,0.0444,
+WV,West Virginia,progressive,single,60000,0.0482,
+WV,West Virginia,progressive,mfj,0,0.0222,
+WV,West Virginia,progressive,mfj,10000,0.0296,
+WV,West Virginia,progressive,mfj,25000,0.0333,
+WV,West Virginia,progressive,mfj,40000,0.0444,
+WV,West Virginia,progressive,mfj,60000,0.0482,
+WY,Wyoming,none,single,,,
+WY,Wyoming,none,mfj,,,
