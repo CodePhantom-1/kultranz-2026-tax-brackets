@@ -13,8 +13,8 @@ A free, open, machine-readable dataset of **2026 US income tax parameters**: fed
 | Jurisdictions | **51** — all 50 states + DC |
 | Filing statuses | single, married filing jointly |
 | No wage income tax | 9 states (AK, FL, NV, NH, SD, TN, TX, WA, WY) |
-| Flat-rate states | 16 (AZ, CO, GA, IA, ID, IL, IN, KY, LA, MI, MO, MS, NC, OH, PA, UT) |
-| Progressive | 25 states + DC |
+| Flat-rate states | 13 (AZ, CO, GA, IA, ID, IL, IN, KY, LA, MI, NC, PA, UT) |
+| Progressive | 28 states + DC |
 | Federal brackets | 7 brackets × 2 filing statuses |
 | FICA | Social Security 6.2% (wage base $184,500), Medicare 1.45%, Additional Medicare 0.9% over $200k single / $250k MFJ |
 | 2026 federal standard deduction | $16,100 single / $32,200 MFJ |
@@ -22,7 +22,7 @@ A free, open, machine-readable dataset of **2026 US income tax parameters**: fed
 **Row counts**
 
 - `csv/federal_tax_2026.csv` — **14 rows** (7 single + 7 MFJ federal brackets, with standard deduction and FICA parameters on every row)
-- `csv/states_tax_2026.csv` — **311 rows** in long format: 261 progressive bracket rows (25 states + DC), 32 flat-rate rows (16 states × 2 filing statuses), 18 rows for the 9 no-tax states
+- `csv/states_tax_2026.csv` — **329 rows** in long format: 285 progressive bracket rows (28 states + DC), 26 flat-rate rows (13 states × 2 filing statuses), 18 rows for the 9 no-tax states
 - `data/tax_2026.json` — the **canonical source**; the CSVs are derived from it, value-for-value
 
 ## File map
@@ -33,7 +33,7 @@ kultranz-2026-tax-brackets/
 │   └── tax_2026.json          # Canonical JSON: _meta, fica, federal, states{51}
 ├── csv/
 │   ├── federal_tax_2026.csv   # 14 rows — federal brackets × filing status + FICA + std deduction
-│   └── states_tax_2026.csv    # 311 rows — long format, one row per state × status × bracket
+│   └── states_tax_2026.csv    # 329 rows — long format, one row per state × status × bracket
 ├── LICENSE                    # CC BY 4.0
 └── README.md
 ```
@@ -146,6 +146,10 @@ with open("csv/states_tax_2026.csv") as f:
 - A few states' MFJ standard deduction was set to 2× the single value where the exact figure was not in the source (KS, ME, MT, NE, NM, ND, OK, SC, VA, WI); the effect is small and disclaimed.
 - Flat-rate states are represented as a single bracket starting at $0 at the statutory rate.
 - Rates are decimals (multiply by 100 for percent). Bracket floors are USD of taxable income (after the standard deduction).
+
+## Corrections
+
+- **2026-10-09** — Corrected the 2026 state income tax structure for three states and republished all files. **Missouri** was previously modeled as a flat 2.0% tax; the real 2026 schedule is graduated — 0% on the first $1,348 of taxable income, then 2.0/2.5/3.0/3.5/4.0/4.5%, top 4.7% above $9,436 (same thresholds for single and MFJ; Missouri DOR 2026 schedule / Tax Foundation 2026). **Mississippi** was previously flat 4.0% from dollar zero; the real 2026 law (H.B. 1) exempts the first $10,000 (0% bracket) and applies 4.0% above. **Ohio** was previously flat 2.75% from dollar zero; the real 2026 law (H.B. 96) applies 2.75% only to nonbusiness income over $26,050 (0% below). `csv/states_tax_2026.csv` grew from 311 to 329 rows (261→285 progressive rows, 32→26 flat rows) and the flat-rate state count changed from 16 to 13.
 
 ## License
 

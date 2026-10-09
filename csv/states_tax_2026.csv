@@ -161,10 +161,26 @@ MN,Minnesota,progressive,mfj,0,0.0535,30600
 MN,Minnesota,progressive,mfj,48700,0.068,30600
 MN,Minnesota,progressive,mfj,193480,0.0785,30600
 MN,Minnesota,progressive,mfj,337930,0.0985,30600
-MO,Missouri,flat,single,0,0.02,16100
-MO,Missouri,flat,mfj,0,0.02,32200
-MS,Mississippi,flat,single,0,0.04,2300
-MS,Mississippi,flat,mfj,0,0.04,4600
+MO,Missouri,progressive,single,0,0.0,16100
+MO,Missouri,progressive,single,1348,0.02,16100
+MO,Missouri,progressive,single,2696,0.025,16100
+MO,Missouri,progressive,single,4044,0.03,16100
+MO,Missouri,progressive,single,5392,0.035,16100
+MO,Missouri,progressive,single,6740,0.04,16100
+MO,Missouri,progressive,single,8088,0.045,16100
+MO,Missouri,progressive,single,9436,0.047,16100
+MO,Missouri,progressive,mfj,0,0.0,32200
+MO,Missouri,progressive,mfj,1348,0.02,32200
+MO,Missouri,progressive,mfj,2696,0.025,32200
+MO,Missouri,progressive,mfj,4044,0.03,32200
+MO,Missouri,progressive,mfj,5392,0.035,32200
+MO,Missouri,progressive,mfj,6740,0.04,32200
+MO,Missouri,progressive,mfj,8088,0.045,32200
+MO,Missouri,progressive,mfj,9436,0.047,32200
+MS,Mississippi,progressive,single,0,0.0,2300
+MS,Mississippi,progressive,single,10000,0.04,2300
+MS,Mississippi,progressive,mfj,0,0.0,4600
+MS,Mississippi,progressive,mfj,10000,0.04,4600
 MT,Montana,progressive,single,0,0.047,16100
 MT,Montana,progressive,single,47500,0.0565,16100
 MT,Montana,progressive,mfj,0,0.047,32200
@@ -232,8 +248,10 @@ NY,New York,progressive,mfj,323200,0.0685,16050
 NY,New York,progressive,mfj,2155350,0.0965,16050
 NY,New York,progressive,mfj,5000000,0.103,16050
 NY,New York,progressive,mfj,25000000,0.109,16050
-OH,Ohio,flat,single,0,0.0275,
-OH,Ohio,flat,mfj,0,0.0275,
+OH,Ohio,progressive,single,0,0.0,
+OH,Ohio,progressive,single,26050,0.0275,
+OH,Ohio,progressive,mfj,0,0.0,
+OH,Ohio,progressive,mfj,26050,0.0275,
 OK,Oklahoma,progressive,single,0,0.0,6350
 OK,Oklahoma,progressive,single,3750,0.025,6350
 OK,Oklahoma,progressive,single,4900,0.035,6350
