@@ -157,6 +157,17 @@ with open("csv/states_tax_2026.csv") as f:
 
 > **kultranz.com** — source: [kultranz 2026 tax brackets dataset](https://github.com/CodePhantom-1/kultranz-2026-tax-brackets), links to https://kultranz.com
 
+## Commercial use & API access
+
+The CC BY 4.0 license covers commercial use at no cost: attribution to kultranz.com is the only requirement, so you can ship this dataset inside commercial products, reports, and internal tools for free.
+
+If your product needs live computed values rather than static files, use the hosted API instead. It powers the paycheck engine (take-home pay for any salary, state, and filing status), city-to-city comparisons, and salary percentiles, so you do not have to reimplement the tax engine yourself:
+
+- **Free tier:** 25 requests/day
+- **$5 lifetime key:** https://kultranz.com/pages/api-docs/
+- **RapidAPI tiers** (Pro, Ultra, Mega): https://rapidapi.com/cianot978/api/kultranz
+- **MCP server** for LLM and agent integration: https://api.kultranz.com/mcp
+
 ## More from kultranz.com
 
 - 📖 [Methodology](https://kultranz.com/pages/methodology/) — how every number in this dataset was sourced and checked
