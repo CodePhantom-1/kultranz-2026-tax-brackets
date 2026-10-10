@@ -137,7 +137,7 @@ with open("csv/states_tax_2026.csv") as f:
 - **Federal brackets & standard deduction:** IRS Rev. Proc. 2025-32 (tax year 2026).
 - **FICA wage base:** Social Security Administration, 2026 ($184,500). FICA rates (6.2% / 1.45% / 0.9%) are statutory.
 - **State brackets & deductions:** Tax Foundation, *2026 State Individual Income Tax Rates and Brackets* (state revenue departments via kultranz methodology).
-- See the full kultranz [methodology page](https://kultranz.com/pages/methodology/).
+- See the full kultranz [methodology page](https://kultranz.com/pages/methodology/?utm_source=github&utm_medium=organic&utm_campaign=revtest-oct).
 
 ### Caveats (from the source data)
 
@@ -155,7 +155,7 @@ with open("csv/states_tax_2026.csv") as f:
 
 [CC BY 4.0](./LICENSE). You are free to share and adapt for any purpose, including commercially, with attribution:
 
-> **kultranz.com** — source: [kultranz 2026 tax brackets dataset](https://github.com/CodePhantom-1/kultranz-2026-tax-brackets), links to https://kultranz.com
+> **kultranz.com** — source: [kultranz 2026 tax brackets dataset](https://github.com/CodePhantom-1/kultranz-2026-tax-brackets?utm_source=github&utm_medium=organic&utm_campaign=revtest-oct), links to https://kultranz.com
 
 ## Commercial use & API access
 
@@ -164,13 +164,13 @@ The CC BY 4.0 license covers commercial use at no cost: attribution to kultranz.
 If your product needs live computed values rather than static files, use the hosted API instead. It powers the paycheck engine (take-home pay for any salary, state, and filing status), city-to-city comparisons, and salary percentiles, so you do not have to reimplement the tax engine yourself:
 
 - **Free tier:** 25 requests/day
-- **$5 lifetime key:** https://kultranz.com/pages/api-docs/
-- **RapidAPI tiers** (Pro, Ultra, Mega): https://rapidapi.com/cianot978/api/kultranz
+- **$5 lifetime key:** https://kultranz.com/pages/api-docs/?utm_source=github&utm_medium=organic&utm_campaign=revtest-oct
+- **RapidAPI tiers** (Pro, Ultra, Mega): https://rapidapi.com/cianot978/api/kultranz?utm_source=github&utm_medium=organic&utm_campaign=revtest-oct
 - **MCP server** for LLM and agent integration: https://api.kultranz.com/mcp
 
 ## More from kultranz.com
 
-- 📖 [Methodology](https://kultranz.com/pages/methodology/) — how every number in this dataset was sourced and checked
-- 💵 [Paycheck Calculator](https://kultranz.com/tools/paycheck-calculator/) — this dataset in action, federal + state + FICA
-- 🔌 [API](https://kultranz.com/pages/api-docs/) — hosted JSON endpoints, including a **$5 lifetime tier**
-- 🏙️ Sibling dataset: [kultranz-cost-of-living-index](https://github.com/CodePhantom-1/kultranz-cost-of-living-index) — US metro cost-of-living (BEA RPP) + rent/home value/income
+- 📖 [Methodology](https://kultranz.com/pages/methodology/?utm_source=github&utm_medium=organic&utm_campaign=revtest-oct) — how every number in this dataset was sourced and checked
+- 💵 [Paycheck Calculator](https://kultranz.com/tools/paycheck-calculator/?utm_source=github&utm_medium=organic&utm_campaign=revtest-oct) — this dataset in action, federal + state + FICA
+- 🔌 [API](https://kultranz.com/pages/api-docs/?utm_source=github&utm_medium=organic&utm_campaign=revtest-oct) — hosted JSON endpoints, including a **$5 lifetime tier**
+- 🏙️ Sibling dataset: [kultranz-cost-of-living-index](https://github.com/CodePhantom-1/kultranz-cost-of-living-index?utm_source=github&utm_medium=organic&utm_campaign=revtest-oct) — US metro cost-of-living (BEA RPP) + rent/home value/income
